@@ -21,8 +21,13 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: center;
 }
 
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
+    cursor: pointer
+}
 .stats-card {
     background-color: #a8b0bc;
     border-radius: 7px;
@@ -72,4 +77,18 @@ button {
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+.container{
+    padding: 1%;
+}
+
+input{
+    font-family: 'Cabin';
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+    width: 90%;
+    position: center;
 }
